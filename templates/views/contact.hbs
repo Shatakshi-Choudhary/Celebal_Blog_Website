@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Write Your Blog</title>
+</head>
+
+<body>
+    {{>layout}}
+    {{!-- <nav class="navigation max-width1 m-auto"> --}}
+        {{!-- <div class="nav-left"> --}}
+            {{!-- Blog --}}
+            {{!-- <ul> --}}
+                {{!-- <li><a href="/">Home</a></li> --}}
+                {{!-- <li><a href="#">About</a></li> --}}
+                {{!-- <li><a href="/contact.html">Contact</a></li> --}}
+                {{!-- </ul> --}}
+            {{!-- </div> --}}
+        {{!-- <div class="nav-right"> --}}
+            {{!-- <form action="/search.html" method="get"> --}}
+                {{!-- <input class="form-input" type="text" name="query" placeholder="Search this website"> --}}
+                {{!-- <button class="btn">Search</button> --}}
+                {{!-- </form> --}}
+            {{!-- </div> --}}
+        {{!-- <div class="right-content"> --}}
+            {{!-- <a href="/signup"><button class="logBtn">LogIn/SignUp</button></a> --}}
+            {{!-- </div> --}}
+        {{!-- </nav> --}}
+    <div class="line max-width1 m-auto">
+        <hr>
+    </div>
+    <div class="content c">
+        <div class="max-width1 m-auto">
+            <h2>Feel Free to Contact Us</h2>
+            <div class="contact-form">
+                <div class="form-box">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                </div>
+                <div class="form-box">
+                    <input type="text" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-box">
+                    <input type="text" placeholder="Enter your E-mail">
+                </div>
+                <div class="form-box">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="What is your concern? "></textarea>
+                </div>
+                <div class="form-box">
+                    <button class="btn">Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer max-width2 m-auto">
+        Copyright &copy;myblog.in<a href="xyz.com">My blog website</a>
+    </div>
+</body>
+
+</html>

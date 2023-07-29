@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+:root {
+    --font1: 'Noto Sans JP', sans-serif;
+    --main-bg-color: rgb(153, 109, 155);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+
+.form-box1 input,
+textarea {
+    width: 20vw;
+    padding: 10px 6px;
+    margin: 7px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+}
+
+.form-box2 input {
+    padding: 10px 6px;
+    margin: 7px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+}
+
+.but {
+    padding-top: 10px;
+}
+
+.but button {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.container {
+    /* background-color: purple; */
+    border: 2px solid purple;
+}
+
+.container h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: purple;
+}
+
+.hello {
+    display: flex;
+    place-content: center;
+    /* margin: 20px; */
+}
+
+.form-box1 label {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* Adjust the vertical alignment of the checkbox */
+.form-box1 input[type="checkbox"] {
+    vertical-align: middle;
+}

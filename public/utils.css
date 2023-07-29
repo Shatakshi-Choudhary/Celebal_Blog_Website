@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+:root {
+    --font1: 'Noto Sans JP', sans-serif;
+    --main-bg-color: rgb(175, 108, 179);
+}
+
+
+.max-width1 {
+    max-width: 80vw;
+}
+
+.max-width2 {
+    max-width: 100vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    padding: 0px 20px;
+    padding-top: 3px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 4px;
+    margin: 0 13px;
+}
+
+.form-box input,
+textarea {
+    width: 50vw;
+    padding: 10px 6px;
+    margin: 7px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+}
+
+.content form {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.content form input[type="text"] {
+    /* text-align: center; */
+    height: 100px;
+    text-align: center;
+    border: 2px solid var(--main-bg-color);
+}
+/* .c  */
+/* { */
+    /* height: 72vh; */
+/* } */
+.c{
+    height: 73vh;
+}

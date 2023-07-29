@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="mobile.css">
+    {{!--
+    <link rel="stylesheet" href="contact.css"> --}}
+    <title>Write Your Blog</title>
+    {{>header}}
+
+</head>
+
+<body>
+    <nav class="navigation max-width1 m-auto">
+        <div class="nav-left">
+            Blog
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="create">
+                        <img src="plus.png" alt="">
+                    </a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="search_results" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search this website">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+        <div class="right-content">
+            {{!-- <a href="/signup"><button class="logBtn">LogIn/SignUp</button></a> --}}
+            {{#if user}}
+            <form action="/logout" method="post">
+                <button class="logBtn" id="logoutBtn" type="submit">Logout</button>
+            </form>
+            {{else}}
+            <a href="/signup"><button class="logBtn" id="loginLink">LogIn/SignUp</button></a>
+            {{/if}}
+        </div>
+    </nav>
+
+
+</body>
+
+</html>

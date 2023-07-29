@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Write Your Blog</title>
+    {{>header}}
+</head>
+
+<body>
+    <nav class="navigation max-width1 m-auto">
+        <div class="nav-left">
+            Blog
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="create">
+                        <img src="plus.png" alt="">
+                    </a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search this website">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+        <div class="right-content">
+            <a href="/signup"><button class="logBtn">Logout</button></a>
+        </div>
+    </nav>
+    <div class="line max-width1 m-auto">
+        <hr>
+    </div>
+    <div class="content max-width1 m-auto">
+        <!-- <div class="content-left"> -->
+        <img src="back.jpg" alt="" srcset="">
+        <!-- </div> -->
+        <div class="content-right">
+            <h1>Heaven for Bloggers</h1>
+            <p>This is a website for bloggers to show their hidden talent Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Quo, minus.</p>
+        </div>
+    </div>
+    <div class="max-width1 m-auto">
+        <hr>
+    </div>
+    <div class="home-articles max-width1 m-auto">
+        <div class="year-box">
+            <h3>Sort By Year:</h3>
+            <div>
+                <input type="radio" name="year" id="">2020
+            </div>
+            <div>
+                <input type="radio" name="year" id="">2021
+            </div>
+        </div>
+        <h2>Featured Articles</h2>
+        <div class="article">
+            <div class="article-img">
+                <a href="/blog">
+                    <img src="celebal.png" alt="article">
+                </a>
+            </div>
+            <div class="article-content">
+                <a href="blog">
+                    <h3>Celebal Technologies</h3>
+                </a>
+                <div>Author Name</div>
+                <span>19 July | 5min </span>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-img">
+                <a href="/blog">
+                    <img src="img2.jpeg" alt="article">
+                </a>
+            </div>
+            <div class="article-content">
+                <a href="/blog">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+                <div>Name</div>
+                <span>19 July | 5min </span>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-img">
+                <a href="/blog">
+                    <img src="img3.jpeg" alt="article">
+                </a>
+            </div>
+            <div class="article-content">
+                <a href="/blog">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+                <div>Name</div>
+                <span>19 July | 5min </span>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-img">
+                <a href="/blog">
+                    <img src="celebal.png" alt="article">
+                </a>
+            </div>
+            <div class="article-content">
+                <a href="/blog">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+                <div>Name</div>
+                <span>19 July | 5min </span>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-img">
+                <a href="/blog">
+                    <img src="facebook.png" alt="article">
+                </a>
+            </div>
+            <div class="article-content">
+                <a href="/blog">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+                <div>Name</div>
+                <span>19 July | 5min </span>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-img">
+                <a href="/blog">
+                    <img src="gfg.png" alt="article">
+                </a>
+            </div>
+            <div class="article-content">
+                <a href="/blog">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                </a>
+                <div>Name</div>
+                <span>19 July | 5min </span>
+            </div>
+        </div>
+    </div>
+    <div class="footer max-width2 m-auto">
+        Copyright &copy;myblog.com<a href="index">My blog website</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.content {
+    height: 72vh;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+}
+.content textarea{
+    width: 50vw;
+}
+.content h2{
+    text-align: center;
+}
